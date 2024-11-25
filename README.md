@@ -1,39 +1,103 @@
-# magnat-test
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
+Using pnpm
+
 ```sh
 pnpm install
 ```
 
+Using npm
+
+```sh
+npm install
+```
+
+Using yarn
+
+```sh
+yarn
+```
+
 ### Compile and Hot-Reload for Development
+
+Usign pnpm
 
 ```sh
 pnpm dev
 ```
 
+Usign npm
+
+```sh
+npm run dev
+```
+
+Usign yarn
+
+```sh
+yarn dev
+```
+
 ### Type-Check, Compile and Minify for Production
+
+Using pnpm
 
 ```sh
 pnpm build
 ```
 
+Using npm
+
+```sh
+npm run build
+```
+
+Using yarn
+
+```sh
+yarn build
+```
+
 ### Lint with [ESLint](https://eslint.org/)
+
+Using pnpm
 
 ```sh
 pnpm lint
+```
+
+Using npm
+
+```sh
+npm run lint
+```
+
+Using yarn
+
+```sh
+yarn lint
+```
+
+### Format with [Prettier]('https://prettier.io/')
+
+Using pnpm
+
+```sh
+pnpm format
+```
+
+Using npm
+
+```sh
+npm run format
+```
+
+Using yarn
+
+```sh
+yarn format
 ```
